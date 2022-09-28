@@ -1,0 +1,52 @@
+#header {
+  text-align: center;
+  font-size: 2rem;
+  color: brown;
+}
+#input-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+}
+#input-wrapper input,
+#input-wrapper button {
+  margin: 5px;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+#input-wrapper label {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+#phone-list {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+}
+
+#phone-list td,
+#phone-list th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#phone-list tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#phone-list tr:hover {
+  background-color: #ddd;
+}
+
+#phone-list th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #04aa6d;
+  color: white;
+}
